@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[url:null]]>
+    </line>
+    <line>
+      <![CDATA[browserName:null]]>
+    </line>
+    <line>
+      <![CDATA[driverAgent:null]]>
+    </line>
+    <line>
+      <![CDATA[executionEnvironment:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackUserName:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackAuthKey:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackBrowserVersion:null]]>
+    </line>
+    <line>
+      <![CDATA[browserStackOSVersion:null]]>
+    </line>
+    <line>
+      <![CDATA[os:null]]>
+    </line>
+    <line>
+      <![CDATA[06/15 19:19:35]]>
+    </line>
+    <line>
+      <![CDATA[Failed fetching URL and screenshot due to error:null]]>
+    </line>
+    <line>
+      <![CDATA[Closing the Browser Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-06-15T13:49:35Z" name="Default suite" finished-at="2020-06-15T13:49:35Z" duration-ms="167">
+    <groups>
+    </groups>
+    <test started-at="2020-06-15T13:49:35Z" name="Default test" finished-at="2020-06-15T13:49:35Z" duration-ms="167">
+      <class name="com.tantaio.Regression.LoginTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.tantaio.Regression.LoginTest@6b26e945]" started-at="2020-06-15T19:19:35Z" name="setUp" finished-at="2020-06-15T19:19:35Z" duration-ms="77" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@682b2fa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tantaio.Regression.LoginTest@6b26e945]" started-at="2020-06-15T19:19:35Z" name="setUp" finished-at="2020-06-15T19:19:35Z" duration-ms="37" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[url:null]]>
+            </line>
+            <line>
+              <![CDATA[browserName:null]]>
+            </line>
+            <line>
+              <![CDATA[driverAgent:null]]>
+            </line>
+            <line>
+              <![CDATA[executionEnvironment:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackUserName:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackAuthKey:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackBrowserVersion:null]]>
+            </line>
+            <line>
+              <![CDATA[browserStackOSVersion:null]]>
+            </line>
+            <line>
+              <![CDATA[os:null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login_Test()[pri:0, instance:com.tantaio.Regression.LoginTest@6b26e945]" started-at="2020-06-15T19:19:35Z" name="Login_Test" finished-at="2020-06-15T19:19:35Z" duration-ms="16" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.tantaio.Library.AppLibrary.getDriverInstance(AppLibrary.java:68)
+	at com.tantaio.Regression.LoginTest.Login_Test(LoginTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test -->
+        <test-method is-config="true" signature="checkAlerts(org.testng.ITestResult)[pri:0, instance:com.tantaio.Regression.LoginTest@6b26e945]" started-at="2020-06-15T19:19:35Z" name="checkAlerts" finished-at="2020-06-15T19:19:35Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Test status=FAILURE method=LoginTest.Login_Test()[pri:0, instance:com.tantaio.Regression.LoginTest@6b26e945] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.tantaio.Library.TestBase.checkAlerts(TestBase.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[06/15 19:19:35]]>
+            </line>
+            <line>
+              <![CDATA[Failed fetching URL and screenshot due to error:null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkAlerts -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.tantaio.Regression.LoginTest@6b26e945]" started-at="2020-06-15T19:19:35Z" name="quitBrowser" finished-at="2020-06-15T19:19:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the Browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.tantaio.Regression.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
